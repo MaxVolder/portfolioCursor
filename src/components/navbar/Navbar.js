@@ -1,9 +1,8 @@
-import sun from "./../../img/icons/sun.svg";
-import moon from "./../../img/icons/moon.svg";
-
 import { NavLink } from "react-router-dom";
-
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
 import "./style.css";
+
+
 
 const Navbar = () => {
 
@@ -18,25 +17,22 @@ const normalLink="nav-link_list";
             <strong>Freelancer</strong> portfolio
           </NavLink>
 
-          <button className="dark-mode-btn">
-            <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
-            <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
-          </button>
+          <BtnDarkMode />
 
           <ul className="nav-list">
             <li className="nav-list__item">
-              <NavLink to="/" className={({isActive})=>isActive ? activeLink :normalLink}>
+              <NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
                 Home
               </NavLink>
             </li>
 
             <li className="nav-list__item">
-              <NavLink to="/projects" className={({isActive})=>isActive ? activeLink :normalLink}>
+              <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
                 Projects
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/contacts" className={({isActive})=>isActive ? activeLink :normalLink}>
+              <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
                 Contacts
               </NavLink>
             </li>

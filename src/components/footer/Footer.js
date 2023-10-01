@@ -12,22 +12,22 @@ const Footer = () => {
           <div className="footer__wrapper">
             <ul className="social">
               <li className="social__item">
-                <a href="#!">
+                <a href="https://www.facebook.com/profile.php?id=100002068586567" target="_blank" rel="noopener noreferrer">
                   <img src={fb} alt="Link" />
                 </a>
               </li>
               <li className="social__item">
-                <a href="#!">
+                <a href="https://www.instagram.com/max_volder/" target="_blank" rel="noopener noreferrer">
                   <img src={instagram} alt="Link" />
                 </a>
               </li>
               <li className="social__item">
-                <a href="#!">
+                <a href="https://github.com/MaxVolder" target="_blank" rel="noopener noreferrer">
                   <img src={gitHub} alt="Link" />
                 </a>
               </li>
               <li className="social__item">
-                <a href="#!">
+                <a href="http://www.linkedin.com/in/володя-максимів-109376246" target="_blank" rel="noopener noreferrer">
                   <img src={linkedIn} alt="Link" />
                 </a>
               </li>

@@ -22,25 +22,25 @@ const projects = [
         title: 'Классові компоненти Стан та життєвий цикл',
         skills: 'React, JavaScript, CSS, HTML',
         img: project03,
-        gitHubLink: 'https://maxvolder.github.io/ReactHomeWork18/',
+        gitHubLink: 'https://maxvolder.github.io/homework18/',
     },
     {
         title: 'ReactJS. Поняття SPA. Навігація.',
         skills: 'React, JavaScript, CSS, HTML',
         img: project04,
-        gitHubLink: 'https://maxvolder.github.io/ReactHomeWork19/',
+        gitHubLink: 'https://maxvolder.github.io/homework19/',
     },
     {
         title: 'ReactJS. Підходи до стилізації. StyledComponents. Animations.',
         skills: 'React, JavaScript, CSS, HTML',
         img: project05,
-        gitHubLink: 'https://maxvolder.github.io/ReactHomeWork20/',
+        gitHubLink: 'https://maxvolder.github.io/homework20/',
     },
     {
         title: 'Redux. Redux та асихнронність',
         skills: 'React, JavaScript, CSS, HTML',
         img: project06,
-        gitHubLink: 'https://maxvolder.github.io/ReactHomeWork21/',
+        gitHubLink: 'https://maxvolder.github.io/homework21/',
     }
 ];
 
